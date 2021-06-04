@@ -32,7 +32,7 @@ namespace Core.BookStore
             {
                 endpoints.MapGet("/", async context =>
                 {
-                    await context.Response.WriteAsync("Hello Books World!");
+                    await context.Response.WriteAsync("Welcome to Books World!");
                 });
             });
         }
